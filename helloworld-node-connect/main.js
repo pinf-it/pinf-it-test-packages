@@ -1,7 +1,6 @@
 
 exports.connect = function(req, res, next) {
 
-	console.log("RUN ROUTE FOR URL:", req.url);
+    res.end("hello world\n");
 
-	return next();
 }
